@@ -10,5 +10,6 @@ public class MainClass {
 
         printer.printType(triangle);
         System.out.println(triangle.perimeter());
+        System.out.println(quad.square());
     }
 }
