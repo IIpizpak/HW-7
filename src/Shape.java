@@ -1,5 +1,7 @@
 public abstract class Shape {
 
-    public abstract void printType (Shape shape);
+    public abstract double perimeter();
+
+    public abstract double square();
 
 }

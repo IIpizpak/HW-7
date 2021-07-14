@@ -1,5 +1,15 @@
 public class Triangle extends Shape implements MathOperations{
 
+    private double side1;
+    private double side2;
+    private double side3;
+
+    public Triangle(double side1, double side2, double side3) {
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
+    }
+
     public double getSide1() {
         return side1;
     }
@@ -11,18 +21,6 @@ public class Triangle extends Shape implements MathOperations{
     public double getSide3() {
         return side3;
     }
-
-    private double side1;
-    private double side2;
-    private double side3;
-
-    public Triangle(double side1, double side2, double side3) {
-        this.side1 = side1;
-        this.side2 = side2;
-        this.side3 = side3;
-    }
-
-
 
     @Override
     public double perimeter() {
@@ -36,8 +34,4 @@ public class Triangle extends Shape implements MathOperations{
                 (this.perimeter() - this.side2)*(this.perimeter() - this.side3));
     }
 
-    @Override
-    public void printType(Shape shape) {
-
-    }
 }

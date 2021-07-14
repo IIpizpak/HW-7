@@ -1,19 +1,19 @@
 public class Rectangle extends Shape implements MathOperations{
 
-    public double getHeight() {
-        return height;
-    }
-
-    public double getLength() {
-        return length;
-    }
-
     private double height;
     private double length;
 
     public Rectangle(double height, double length) {
         this.height = height;
         this.length = length;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getLength() {
+        return length;
     }
 
     @Override
@@ -26,8 +26,4 @@ public class Rectangle extends Shape implements MathOperations{
         return height * length;
     }
 
-    @Override
-    public void printType(Shape shape) {
-
-    }
 }

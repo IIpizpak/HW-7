@@ -1,19 +1,19 @@
 public class Rhombus extends Shape implements MathOperations {
 
-    public double getSide() {
-        return side;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
     private double side;
     private double height;
 
     public Rhombus(double side, double height) {
         this.side = side;
         this.height = height;
+    }
+
+    public double getSide() {
+        return side;
+    }
+
+    public double getHeight() {
+        return height;
     }
 
     @Override
@@ -26,8 +26,4 @@ public class Rhombus extends Shape implements MathOperations {
         return side * height;
     }
 
-    @Override
-    public void printType(Shape shape) {
-
-    }
 }

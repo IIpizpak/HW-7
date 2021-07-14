@@ -1,10 +1,7 @@
-public class Printer extends Shape{
+public class Printer{
 
-
-    @Override
     public void printType(Shape shape) {
 
-        String[] name = shape.getClass().toString().split("class ");
-        System.out.println(name[1]);
+        System.out.println("Shape type is " + shape.getClass().getName());
     }
 }
