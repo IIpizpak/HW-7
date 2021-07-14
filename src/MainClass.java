@@ -7,9 +7,10 @@ public class MainClass {
         Shape circle = new Circle(10);
         Shape rectangle = new Rectangle(2, 4);
 
-        System.out.println("Side of quad is " + quad.getSide());
         printer.printType(rhombus);
         printer.printType(triangle);
+
+        System.out.println("Side of quad is " + quad.getSide());
         System.out.println("Triangle perimeter is " + triangle.perimeter());
         System.out.println("Quad perimeter is " + quad.perimeter());
         System.out.println("Quad square is " + quad.square());
