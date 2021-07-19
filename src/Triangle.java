@@ -1,4 +1,4 @@
-public class Triangle extends Shape implements MathOperations{
+public class Triangle extends Shape {
 
     private double side1;
     private double side2;
@@ -30,8 +30,8 @@ public class Triangle extends Shape implements MathOperations{
 
     @Override
     public double square() {
-        return Math.sqrt(this.perimeter()*(this.perimeter() - this.side1)*
-                (this.perimeter() - this.side2)*(this.perimeter() - this.side3));
+        return Math.sqrt(this.perimeter() * (this.perimeter() - this.side1) *
+                (this.perimeter() - this.side2) * (this.perimeter() - this.side3));
     }
 
 }

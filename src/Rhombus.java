@@ -1,4 +1,4 @@
-public class Rhombus extends Shape implements MathOperations {
+public class Rhombus extends Shape {
 
     private double side;
     private double height;

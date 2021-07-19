@@ -1,4 +1,4 @@
-public class Rectangle extends Shape implements MathOperations{
+public class Rectangle extends Shape {
 
     private double height;
     private double length;

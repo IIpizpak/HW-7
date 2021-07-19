@@ -1,4 +1,4 @@
-public class Quad extends Shape implements MathOperations{
+public class Quad extends Shape {
 
     private double side;
 
@@ -12,7 +12,7 @@ public class Quad extends Shape implements MathOperations{
 
     @Override
     public double perimeter() {
-        return this.side*4;
+        return this.side * 4;
     }
 
     @Override

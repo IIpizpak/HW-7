@@ -1,4 +1,4 @@
-public class Circle extends Shape implements MathOperations{
+public class Circle extends Shape {
 
     private double radius;
 
@@ -12,12 +12,12 @@ public class Circle extends Shape implements MathOperations{
 
     @Override
     public double perimeter() {
-        return (Math.round(2*Math.PI*radius));
+        return (Math.round(2 * Math.PI * radius));
     }
 
     @Override
     public double square() {
-        return (Math.round(Math.PI*Math.pow(radius, 2)));
+        return (Math.round(Math.PI * Math.pow(radius, 2)));
     }
 
 }

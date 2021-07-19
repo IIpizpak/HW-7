@@ -1,7 +1,7 @@
 public class MainClass {
     public static void main(String[] args) {
         Printer printer = new Printer();
-        Shape triangle = new Triangle(2,2,2);
+        Shape triangle = new Triangle(2, 2, 2);
         Shape rhombus = new Rhombus(4, 1);
         Quad quad = new Quad(9);
         Shape circle = new Circle(10);

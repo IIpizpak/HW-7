@@ -1,4 +1,4 @@
-public class Printer{
+public class Printer {
 
     public void printType(Shape shape) {
 
